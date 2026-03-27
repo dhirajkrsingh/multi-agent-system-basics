@@ -1,0 +1,5 @@
+# No external dependencies required — all examples use Python standard library only.
+# If you want to extend these examples, consider:
+# mesa>=2.0          # Agent-based modeling framework
+# pettingzoo>=1.24   # Multi-agent reinforcement learning environments
+# networkx>=3.0      # Graph-based agent communication topologies

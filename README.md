@@ -1,2 +1,93 @@
-# multi-agent-system-basics
-Fundamentals of multi-agent systems
+# Multi-Agent System Basics
+
+> **A comprehensive introduction to Multi-Agent Systems (MAS) for AI practitioners and learners.**
+
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+## What is a Multi-Agent System?
+
+A **Multi-Agent System (MAS)** is a system composed of multiple interacting intelligent agents. Each agent is an autonomous entity that observes and acts upon an environment, directing its activity towards achieving goals.
+
+```
+┌──────────────────────────────────────────────┐
+│              ENVIRONMENT                      │
+│                                               │
+│  ┌─────────┐  ┌─────────┐  ┌─────────┐      │
+│  │ Agent A  │◄►│ Agent B  │◄►│ Agent C  │     │
+│  │ (Sensor) │  │(Planner) │  │(Executor)│     │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘    │
+│       │              │              │          │
+│       ▼              ▼              ▼          │
+│   ┌──────────────────────────────────────┐    │
+│   │         Shared Knowledge Base         │    │
+│   └──────────────────────────────────────┘    │
+└──────────────────────────────────────────────┘
+```
+
+## Table of Contents
+
+- [Key Concepts](#key-concepts)
+- [Examples](#examples)
+- [Best Practices](#best-practices)
+- [Getting Started](#getting-started)
+- [References & Top Repos](#references--top-repos)
+
+## Key Concepts
+
+| Concept | Description |
+|---------|-------------|
+| **Agent** | An autonomous entity that perceives its environment and takes actions |
+| **Environment** | The world in which agents operate and interact |
+| **Communication** | How agents exchange information (messages, signals, shared memory) |
+| **Coordination** | How agents organize their actions to achieve common goals |
+| **Cooperation** | Agents working together towards a shared objective |
+| **Competition** | Agents pursuing conflicting goals |
+| **Emergent Behavior** | Complex system-level behavior arising from simple agent interactions |
+
+## Examples
+
+### 1. Simple Reactive Agent
+See [`examples/01_simple_agent.py`](examples/01_simple_agent.py) — A basic agent that reacts to environmental stimuli.
+
+### 2. Multi-Agent Communication
+See [`examples/02_message_passing.py`](examples/02_message_passing.py) — Two agents communicating via message passing.
+
+### 3. Cooperative Task Solving
+See [`examples/03_cooperative_task.py`](examples/03_cooperative_task.py) — Multiple agents collaborating to solve a task.
+
+### 4. Agent with Memory
+See [`examples/04_agent_with_memory.py`](examples/04_agent_with_memory.py) — An agent that learns from past interactions.
+
+## Best Practices
+
+1. **Single Responsibility** — Each agent should have one clear purpose
+2. **Loose Coupling** — Agents should communicate through well-defined interfaces
+3. **Fault Tolerance** — Design agents to handle failures of other agents gracefully
+4. **Scalability** — System should work whether there are 2 or 200 agents
+5. **Observability** — Log agent decisions and communications for debugging
+6. **Idempotent Messages** — Messages should be safe to process more than once
+
+## Getting Started
+
+```bash
+git clone https://github.com/dhirajkrsingh/multi-agent-system-basics.git
+cd multi-agent-system-basics
+pip install -r requirements.txt
+python examples/01_simple_agent.py
+```
+
+## References & Top Repos
+
+| Resource | Description |
+|----------|-------------|
+| [microsoft/autogen](https://github.com/microsoft/autogen) | Multi-agent conversation framework by Microsoft |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | Build stateful multi-agent applications |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing agents |
+| [camel-ai/camel](https://github.com/camel-ai/camel) | Communicative Agents for Mind Exploration |
+| [Wooldridge - Intro to MAS](https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/imas/IMAS2e.html) | Classic textbook on Multi-Agent Systems |
+
+---
+
+**Author:** [Dhiraj Kumar Singh](https://github.com/dhirajkrsingh) — AI Trainer & Multi-Agent Systems Enthusiast
