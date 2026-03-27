@@ -3,6 +3,8 @@
 > **A comprehensive introduction to Multi-Agent Systems (MAS) for AI practitioners and learners.**
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
+[![Level](https://img.shields.io/badge/Level-Beginner-2E8B57)](#)
+[![Track](https://img.shields.io/badge/Track-Agent%20Systems-0A7EA4)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ## What is a Multi-Agent System?
@@ -24,6 +26,33 @@ A **Multi-Agent System (MAS)** is a system composed of multiple interacting inte
 │   └──────────────────────────────────────┘    │
 └──────────────────────────────────────────────┘
 ```
+
+## What You Will Learn
+
+By the end of this repository, you should be able to:
+
+- explain what an agent is and what makes a system multi-agent
+- recognize the core interaction patterns between agents and environments
+- understand the difference between communication, coordination, cooperation, and competition
+- use this repository as the first step into the broader agent systems track
+
+## Prerequisites
+
+This repository is designed as the beginner entry point for the agent track.
+
+Helpful background:
+
+- basic Python familiarity
+- comfort running small example scripts
+- curiosity about how multiple agents interact to solve problems
+
+## Where This Fits In The Learning Path
+
+Use this repository first, then continue with:
+
+- [agent-communication-protocols](https://github.com/dhirajkrsingh/agent-communication-protocols) for agent messaging patterns
+- [agent-architecture-patterns](https://github.com/dhirajkrsingh/agent-architecture-patterns) for reactive, BDI, and utility-driven designs
+- [distributed-agent-coordination](https://github.com/dhirajkrsingh/distributed-agent-coordination) once you want more advanced coordination mechanisms
 
 ## Table of Contents
 
