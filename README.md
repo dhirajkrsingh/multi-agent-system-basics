@@ -3,7 +3,6 @@
 > **A comprehensive introduction to Multi-Agent Systems (MAS) for AI practitioners and learners.**
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ## What is a Multi-Agent System?
@@ -88,6 +87,12 @@ python examples/01_simple_agent.py
 | [camel-ai/camel](https://github.com/camel-ai/camel) | Communicative Agents for Mind Exploration |
 | [Wooldridge - Intro to MAS](https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/imas/IMAS2e.html) | Classic textbook on Multi-Agent Systems |
 
----
+## Author
 
-**Author:** [Dhiraj Kumar Singh](https://github.com/dhirajkrsingh) — AI Trainer & Multi-Agent Systems Enthusiast
+Dhiraj Singh
+
+## Usage Notice
+
+This repository is shared publicly for learning and reference.
+It is made available for everyone through [VAIU Research Lab](https://vaiu.ai/Research_Lab).
+For reuse, redistribution, adaptation, or collaboration, contact Dhiraj Singh / [VAIU Research Lab](https://vaiu.ai/Research_Lab).
